@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: adiusz/js-github-action@@v1
+        uses: adiusz/js-github-action@v1
         with:
           who-to-greet: 'Adam'
       # Use the output from the `hello` step
